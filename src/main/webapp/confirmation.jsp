@@ -20,14 +20,14 @@
 
 				<div class="form-group">
 					<label class="control-label">ID :</label> <input type="text"
-						name="Nom" class="form-control" value="${Car.idCar }" /> <label
+						name="Nom" class="form-control" value="${car.idCar }" /> <label
 						class="control-label">Car Name :</label> <input type="text"
-						name="Nom" class="form-control" value="${Car.carname }" />
+						name="Nom" class="form-control" value="${car.carname }" />
 				</div>
 
 				<div class="control-label">
 					<label class="control-label">Price :</label> <input type="text"
-						name="Prix" class="form-control" value="${Car.price }" />
+						name="Prix" class="form-control" value="${car.price }" />
 				</div>
 			</div>
 
