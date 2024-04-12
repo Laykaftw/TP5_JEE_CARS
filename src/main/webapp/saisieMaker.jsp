@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type"
 	content="text/html; charset=windows-1256">
-<title>Insert title here</title>
+<title>Add Makers</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -15,29 +15,21 @@
 	<p></p>
 	<div class="container">
 		<div class="card">
-			<div class="card-header">Add Car</div>
+			<div class="card-header">Add Makers</div>
 			<div class="card-body">
-				<form action="save.do" method="post">
+				<form action="saveMaker" method="post">
 					<div class="form-group">
-						<label class="control-label">Car Name :</label> <input type="text"
-							name="nom" class="form-control" />
+						<label class="control-label">Maker Name :</label> <input
+							type="text" name="nom" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label class="control-label">Price :</label> <input type="text"
-							name="prix" class="form-control" />
-					</div>
-					<div class="form-group">
-						<select name="categorie" class="form-control">
-							<c:forEach items="${catModel.makers}" var="cat">
-								<option value="${cat.idMaker}">${cat.MakerName}</option>
-							</c:forEach>
-						</select>
+						<label class="control-label">maker Date : </label> <input
+							type="date" name="dateCat" class="form-control"></input>
 					</div>
 					<div>
 						<button type="submit" class="btn btn-primary">Add</button>
 					</div>
 				</form>
-
 			</div>
 		</div>
 	</div>
